@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family="Inter":wght@400;500;600;700;800&display=swap');
+
 body {
-  background: url("pics/illustration-1-contact-form-desktop.svg"),
+  background:
+    url("pics/illustration-1-contact-form-desktop.svg"),
     url("pics/illustration-2-contact-form-desktop.svg"),
     url("pics/illustratoin-3-contact-form-desktop.svg");
   background-repeat: no-repeat;
-  background-position: bottom 72.49px left 0, bottom 156.14px left 274px,
+  background-position:
+    bottom 72.49px left 0,
+    bottom 156.14px left 274px,
     bottom 74.83px right 0;
 }
+
 header {
   height: 636px;
   background: url("pics/Header-llustration-desktop.svg");
@@ -15,6 +20,7 @@ header {
   background-position: top 0 left 27px;
   padding: 20px 0 0;
 }
+
 .language-tags {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -126,6 +132,7 @@ header {
   align-items: center;
   padding: 0 24px;
 }
+
 #skill-card,
 #frameworks-card,
 #language-card {
@@ -133,7 +140,8 @@ header {
 }
 
 .about-me-text {
-  background-image: url("pics/right-about-me.svg"),
+  background-image:
+    url("pics/right-about-me.svg"),
     url("pics/left-about-me.svg");
   background-position: top 1px right 0, top 300px left 0;
   background-repeat: no-repeat, no-repeat;
@@ -222,6 +230,7 @@ header {
 .about-me-button:active {
   background: #0a2759;
 }
+
 .card-details p {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -284,6 +293,7 @@ header {
   height: 363px;
   margin: 0;
 }
+
 textarea {
   height: 25%;
 }
@@ -299,13 +309,16 @@ textarea {
 input {
   width: 85%;
 }
+
 #email {
   margin-top: 20px;
 }
+
 #message {
   width: 85%;
   margin-top: 20px;
 }
+
 #submit {
   padding: 12px;
   margin-top: 30px;
@@ -328,19 +341,19 @@ input {
   -ms-transition: background-color 500ms ease-in;
   -o-transition: background-color 500ms ease-in;
 }
+
 #submit:hover {
   box-shadow: 0 8px 16px rgb(30 72 143 / 24%);
   background-color: #36b37e;
   border-radius: 20px;
-  
 }
 
 #submit:active {
   background: #0a2759;
 }
+
 #desktop-nav {
   width: 70%;
-  text-align: center;
   justify-content: center;
   padding-left: 30%;
   font-weight: 500;
@@ -363,17 +376,25 @@ input {
   color: #172b4d;
   margin: 0;
 }
-.headline{
+
+.headline {
   padding-bottom: 20px;
 }
-#nav-links{
+
+#nav-links {
   width: 30%;
   margin-left: 35%;
   font-style: normal;
-  
   color: #505f79;
- 
 }
+
+#nav-linkss {
+  width: 30%;
+  margin-left: 35%;
+  font-style: normal;
+  color: #505f79;
+}
+
 .headline h1 {
   padding-top: 10%;
   font-family: Inter, sans-serif;
